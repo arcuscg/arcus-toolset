@@ -17,6 +17,7 @@ def get_domain():
 def collect_data():
     set_domain = get_domain()
     os.system(f"whois {set_domain} > whois-{set_domain}.txt")
+    pass
 
 
 
